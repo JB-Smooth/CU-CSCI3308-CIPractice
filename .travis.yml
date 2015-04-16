@@ -1,6 +1,7 @@
 language: c
+sudo: required
 compiler:
  - gcc
  - clang
 # Change this to your needs
-script:  make dep && make test && ./geometry_test
+script:  make dep && make test
