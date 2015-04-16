@@ -3,4 +3,4 @@ compiler:
  - gcc
  - clang
 # Change this to your needs
-script:  ./geometry_test && make test
+script:  make dep && make test
